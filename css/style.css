@@ -17,7 +17,8 @@
   height: 100px;
   padding: 10px;
   border-radius: 90%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .navbar .nav-item {
   text-decoration: none;
@@ -79,7 +80,8 @@
   width: 100%;
   border-radius: 10%;
   border: 2px solid black;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .container .section .col-md-9 {
   font-size: 30px;
@@ -102,16 +104,13 @@
   }
 }
 @media only screen and (max-width: 576px) {
-  .navbar {
-    display: flex;
-    flex-wrap: nowrap;
-  }
   .navbar .navbar-brand img {
     width: 150px;
     height: 150px;
     padding: 15px;
     border-radius: 90%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     justify-content: center;
   }
   .navbar .nav-item {
@@ -122,6 +121,4 @@
     margin: 10px;
     padding: 15px;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
